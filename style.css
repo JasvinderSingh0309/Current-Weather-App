@@ -86,7 +86,8 @@ body{
   justify-content: space-between;
   align-items: end;
 }
-.container .display .detail .tempAt{
+.container .display .detail .tempAt,
+.cannotGetData{
   font-size: 40px;
   margin-bottom: 10px;
 }
@@ -95,6 +96,22 @@ body{
 
   filter:drop-shadow(0 0 20px rgba(0, 0, 0, 0.500));
 }
+
+.cannotGetData{
+  display:none;
+}
+.cannotGetData>.tempAt>p{
+  font-family: 'Times New Roman', Times, serif;
+}
+.cannotGetData>.tempAt>p:nth-child(1){
+  color: rgba(211, 0, 0, 0.806);
+  font-size: 45px;
+
+}
+.cannotGetData>.tempAt>p:nth-child(2){
+  font-size: 28px;
+}
+
 
 @media (max-width:500px) {
   .container{
