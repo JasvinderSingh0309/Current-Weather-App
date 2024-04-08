@@ -119,6 +119,7 @@ body{
   }
   .container .form>input{
     padding: 0 50px 0 20px;
+    font-size: 25px;
   }
   .container .form>img{
     left: 50%;
@@ -126,9 +127,19 @@ body{
   }
 
   .container .display{
-    padding: 10px 0px 0px 20px;
+    padding: 10px 0px 0px 12px;
   }
   .container .display .detail .icon>img{
-    width: 100px;
+    width: 80px;
+  }
+  .container .display .temp{
+    font-size: 80px;
+  }
+  .container .form>.bx{
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .container .display .detail .tempAt{
+    font-size: 34px;
   }
 }
